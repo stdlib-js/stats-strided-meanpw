@@ -63,6 +63,11 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
+import meanpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meanpw@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-meanpw/tags). For example,
+
+```javascript
 import meanpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meanpw@v0.1.0-deno/mod.js';
 ```
 
@@ -155,7 +160,7 @@ var v = meanpw.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import meanpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meanpw@v0.1.0-deno/mod.js';
+import meanpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-meanpw@deno/mod.js';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
